@@ -12,7 +12,7 @@ public class Agenda {
                 contactos[posicion]=nuevoPerfil;
 
             } else {
-                System.out.println("\n"+"Ya existe un perfil en esta ubicación");
+                System.out.println("\n"+"Ya existe un perfil en esta ubicación"+"\n");
             }
         } catch (ArrayIndexOutOfBoundsException ex) {
             System.out.println("\n"+"No existe ese número de contacto, debe consultar un contacto del 0 al 4"+"\n");
