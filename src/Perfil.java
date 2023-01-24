@@ -39,7 +39,7 @@ public class Perfil {
         this.edad=edad;
     }
 
-    public int getLDNI() {
+    public char getLDNI() {
         return lDNI;
     }
 
